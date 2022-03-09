@@ -6,9 +6,9 @@ This project will consist of three separate mini-projects to get you comfortable
 
 In the first mini-project, you'll be mimicking the steps you'll take when you first start your personal project. Creating a repository, linking it to your computer, then pushing those changes up to your GitHub.
 
-In the second mini-project, you'll be mimicking the steps you'll take with nearly every DevMountain project you do. You'll 'fork' the DevMountain repository, link your computer with your fork, then push those changes up to your GitHub.
+In the second mini-project, you'll be mimicking the steps you'll take with nearly every Tech LnD project you do. You'll 'fork' this repository, link your computer with your fork, then push those changes up to your GitHub.
 
-Finally, in the last mini-project you'll be mimicking the steps you'll take during the group project portion. You'll fork your group's repo, link your computer with your fork, push changes to your GitHub, then make a 'Pull Request' into your group's repo.
+Finally, you'll make a 'Pull Request' into your this repo with what changes you've made.
 
 ## Mini-Project 1: Personal Project
 
@@ -36,7 +36,7 @@ In this step we will setup the origin for the repository. We'll do this by conne
 
 * Create a folder called `myProject`.
 * Go into that folder.
-* Create a file called `myName.js` and add your name to that file.
+* Create a file and add your name to that file.
 * Save the file and open a terminal window.
 * In your terminal window, `cd` to your `myProject` folder. O
 * Run `git init`. 
@@ -56,11 +56,11 @@ In this step we will setup the origin for the repository. We'll do this by conne
 
     <br />
 
-    Basically, we tell our computer "Hey, I created this repo on GitHub, so when I push, I want my code to go to this GitHub repo." Now whenever you run `git push origin master` your computer knows that origin is pointing to your repo you made on GitHub and it pushes your changes there.
+    Basically, we tell our computer "Hey, I created this repo on GitHub, so when I push, I want my code to go to this GitHub repo." Now whenever you run `git push origin main` your computer knows that origin is pointing to your repo you made on GitHub and it pushes your changes there.
 
     <br />
 
-    ( If you accidentally DID initialize your repository with a README, you must do a `git pull origin master` first - to get the README file on your computer - before you'll be able to push. ) 
+    ( If you accidentally DID initialize your repository with a README, you must do a `git pull origin main` first - to get the README file on your computer - before you'll be able to push. ) 
 
     </details>
 
@@ -113,14 +113,14 @@ In this step, we will push code to GitHub.
     This tells your computer: 'Hey, the next time code is pushed to GitHub, take all of this code with it.' The message also specifies what GitHub will display in relation to this commit.
 
     </details>
-* Run `git push origin master`
+* Run `git push origin main`
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    Your code is now pushed to GitHub. Be sure to include `origin master`, as this tells GitHub which branch you want to push to, and creates the branch if it doesn't exist yet.
+    Your code is now pushed to GitHub. Be sure to include `origin main`, as this tells GitHub which branch you want to push to, and creates the branch if it doesn't exist yet.
 
     </details>
 * Go to your repository on GitHub and see your updates.
