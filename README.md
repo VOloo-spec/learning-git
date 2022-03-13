@@ -124,3 +124,5 @@ In this step, we will push code to GitHub.
 
     </details>
 * Go to your repository on GitHub and see your updates.
+
+* Once you're done with these steps head over to the UPDATE.md file and proceed with the next steps
